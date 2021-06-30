@@ -1,0 +1,164 @@
+{
+  "member":[ 
+    {
+      "account_id": 1,
+      "name": "Woody_Wu",
+      "password": "00112233"
+      
+    }
+    ,{
+      "account_id": 2,
+      "name": "ALbert_Wu",
+      "password": "00546433"
+    },
+    {
+      "account_id": 3,
+      "name": "Susan_Wu",
+      "password": "00666663"
+    },
+    {
+      "account_id": 4,
+      "name": "Mike_Won",
+      "password": "001452233"
+    }
+  ],
+  "chatroom": [
+    {
+      "family_id": 1,
+      "fridge_id": 1,
+      "family_name": "Wufamiiy",
+      "url": "家庭路徑",
+      "member": [
+        {"account_id": 1,"name": "Woody_Wu"},
+        {"account_id": 2,"name": "ALbert_Wu"},
+        {"account_id": 3,"name": "Susan_Wu"}
+      ]
+    }
+  ],
+  "fridge":[
+    {
+      "fridge_id": 1,
+      "fName": "冰箱擁有著"
+    }
+  ],
+  "ownfridge":[
+    {
+      "fridge_id": 1,
+      "account": "Woody_Wu"
+    }
+  ],
+  "food":[
+    {
+      "fridge_id": 1,
+      "food_name": "檸檬", 
+      "amount":"食物數量",
+      "price":"食物價格",
+      "src":"圖片路徑",
+      "type":"食物類型",
+      "expired_time": "過期時間"
+    }
+  ],
+  "recipe": [
+    {
+      "reciepe_id": 1,
+      "reciepe_name": "布朗尼",
+      "src":"圖片路徑",
+      "step":"步驟",
+      "created_time": "產生時間",
+      "account": "Woody_Wu"
+    }
+  ],
+  "ingredient":[{
+    "reciepe_id": 1,
+    "name": "牛奶",
+    "amount": 2
+    }
+  ],
+  "message":[{
+    "recipe_id": 1,
+    "message_id": 1,
+    "account":"Woody_Wu",
+    "created_time": "產生時間",
+    "body":"在哪學阿"
+  }],
+  "collection":[{
+    "account":"Woody_Wu",
+    "recipe_id": 1
+  }],
+  "newbanner":[
+    {
+      "id": 1,
+      "title":"新聞標題",
+      "src":"新聞圖片連結",
+      "href":"新聞點擊連結",
+      "target":"連結視窗目標"
+    },{
+      "id": 2,
+      "title":"新聞標題",
+      "src":"新聞圖片連結",
+      "href":"新聞點擊連結",
+      "target":"連結視窗目標"
+    },
+    {
+      "id": 3,
+      "title":"新聞標題",
+      "src":"新聞圖片連結",
+      "href":"新聞點擊連結",
+      "target":"連結視窗目標"
+    },
+    {
+      "id": 3,
+      "title":"新聞標題",
+      "src":"新聞圖片連結",
+      "href":"新聞點擊連結",
+      "target":"連結視窗目標"
+    }
+  ],
+  "foodprice":[
+    {
+    "date":"上週價格更新時間",
+    "type":[
+      {"type_id": 1,
+        "typename":"肉類",
+        "pricepercent":"價格漲幅"
+      },
+      {"type_id": 2,
+        "typename":"魚類",
+        "pricepercent":"價格漲幅"
+      },
+      {"type_id": 3,
+          "typename":"蔬菜",
+          "pricepercent":"價格漲幅"
+      },
+      {"type_id": 4,
+        "typename":"水果",
+        "pricepercent":"價格漲幅"
+      }
+    ]},
+    {
+      "date":"今日價格更新時間",
+      "type":[
+        {"type_id": 1,
+          "typename":"肉類",
+          "pricepercent":"價格漲幅"
+        },
+        {"type_id": 2,
+          "typename":"魚類",
+          "pricepercent":"價格漲幅"
+        },
+        {"type_id": 3,
+            "typename":"蔬菜",
+            "pricepercent":"價格漲幅"
+        },
+        {"type_id": 4,
+          "typename":"水果",
+          "pricepercent":"價格漲幅"
+        }
+    ]}
+  ]
+}
+
+
+
+
+
