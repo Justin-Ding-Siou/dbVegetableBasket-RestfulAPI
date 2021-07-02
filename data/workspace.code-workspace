@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "data",
+			"path": "..\\..\\..\\..\\Desktop\\dbVegetableBasket-RestfulAPI-main\\data"
+		},
+		{
+			"name": "dbVegetableBasket-RestfulAPI",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dbVegetableBasket-RestfulAPI"
+	}
+}

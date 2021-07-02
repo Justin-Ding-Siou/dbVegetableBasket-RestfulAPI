@@ -8,19 +8,6 @@
 </head>
 <body>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
-    <script>
-        $(function() {
-            $ajax({
-                url: 'http://localhost:3000/member',
-                dataType: 'json',
-                data: {}
-            }).done(function(res) {
-                console.log(res)
-            }).fail(function(err){
-                console.log(err)
-            })
-        })
-    </script>
 </body>
 </html>
 
